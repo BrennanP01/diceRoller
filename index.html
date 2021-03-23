@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="To get reaquainted with html/css" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Brennan Price" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Brennan Price's Webpage</title>
+    <script src="javaScript/rollDice.js"></script>
+</head>
+
+<body onload="rollDice()">
+    <header style="text-align: center;">
+        <h1>Dice Roller</h1>
+        <h4>Brennan Price</h4>
+    </header>
+    <hr />
+    <section>
+        <table>
+            <tr>
+                <th><img id="die1"></th>
+                <th><img id="die2"></th>
+                <th><img id="die3"></th>
+                <th><img id="die4"></th>
+                <th><img id="die5"></th>
+            </tr>
+        </table>
+    </section>
+    <hr />
+    <section>
+        <h4 style="margin-left: 15%;">How it works:</h4>
+        <p>This page will roll five six-sided dice for you. Press the roll button to begin.</p>
+    </section>
+    <hr />
+    <div class="center">
+        <button autofocus onclick="rollDice()">ROLL!</button>
+    </div>
+</body>
+
+</html>
