@@ -1,0 +1,2 @@
+# diceRoller
+rolls dice
