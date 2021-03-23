@@ -56,12 +56,18 @@ table {
     border-spacing: 5px;
 }
 
-table, th {
+table, th, td {
     border: 1px solid #A9A69E;
 }
 
-th {
+th, td {
     padding: 10px;
+}
+
+td {
+    color: #A9A69E;
+    text-align: right;
+    font-weight: bold;
 }
 
 img {
