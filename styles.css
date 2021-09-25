@@ -5,12 +5,12 @@ body {
 p {
     margin-left: 5%;
     color: #A9A69E;
-    font-size: 2vh;
+    font-size: 3vh;
     text-align: center;
 }
 
 h1 {
-    font-size: 4vh;
+    font-size: 5vh;
     margin-left: 15%;
     margin-right: 15%;
     color: #A9A69E;
@@ -23,8 +23,8 @@ h2 {
     color: #A9A69E;
 }
 
-h4 {
-    font-size: 2vh;
+h3 {
+    font-size: 4vh;
     color: #A9A69E;
 }
 
@@ -77,7 +77,7 @@ img {
 
 button {
     background-color: #7A0800;
-    color: #141414;
+    color: #A9A69E;
     border-color: #7A0800;
 }
 
